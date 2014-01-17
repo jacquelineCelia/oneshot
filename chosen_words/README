@@ -1,0 +1,10 @@
+1. use wavesurfer to get the time stamps of the key word
+2. use the following command to create a file of the following formate:
+
+4
+0
+t1
+t2
+wavefile length
+
+for f in `find *.orig.wav`; do echo 4 >> `basename $f orig.wav`txt; echo 0 >> `basename $f orig.wav`txt; cat `basename $f orig.wav`sec >> `basename $f orig.wav`txt; ls -Ll $f | awk '{print $5/2/16000}' - >> `basename $f orig.wav`txt ; done;
