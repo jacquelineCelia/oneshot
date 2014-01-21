@@ -37,11 +37,19 @@ for i in `seq 3 1 12`; do for f in `seq 1 1 20`; do /usr/users/chiaying/oneshot/
 
 9. get .mfc files
 -----------------
-for i in `seq 3 1 3`; do cd $i; for f in `find *.orig.wav`; do echo $f; ls -lrt $f | awk '{print $NF}' | sed 's/\// /g' | awk '{print $NF}' | sed 's/\.wav//' | while read line; do /usr/users/chiaying/pronunciation_learning/exps/scripts/gather_silence_mfcc -index `basename $f .orig.wav`.phn -mfcc `grep $line /usr/users/chiaying/JNAS/scripts/especs/pca_mfcc.list` -out `basename $f .orig.wav`.mfc ; done; done; cd ../ ; done;  
+for i in `seq 3 1 12`; do cd $i; for f in `find *.orig.wav`; do echo $f; ls -lrt $f | awk '{print $NF}' | sed 's/\// /g' | awk '{print $NF}' | sed 's/\.wav//' | while read line; do /usr/users/chiaying/pronunciation_learning/exps/scripts/gather_silence_mfcc -index `basename $f .orig.wav`.phn -mfcc `grep $line /usr/users/chiaying/JNAS/scripts/especs/pca_mfcc.list` -out `basename $f .orig.wav`.mfc ; done; done; cd ../ ; done;  
 
 10. create .raw files
 ---------------------
 for i in `seq 3 1 12`; do for f in `seq 1 1 20`; do /usr/users/chiaying/phone_learning/gmm_training/bin/write_mfcc -in /usr/users/chiaying/oneshot/jnas/oneshot/chosen_words/$i/$i\_$f\_M.mfc -out /usr/users/chiaying/oneshot/jnas/oneshot/chosen_words/$i/$i\_$f\_M.raw; /usr/users/chiaying/phone_learning/gmm_training/bin/write_mfcc -in /usr/users/chiaying/oneshot/jnas/oneshot/chosen_words/$i/$i\_$f\_F.mfc -out /usr/users/chiaying/oneshot/jnas/oneshot/chosen_words/$i/$i\_$f\_F.raw; done; done;  
 
+11. create decoding files
+-------------------------
+for i in `seq 3 1 12`; do ./create_decode_command.py -l ../oneshot/chosen_words/$i/query.M.list -o ../oneshot/chosen_words/$i/decode.M.sh -q /usr/users/chiaying/oneshot/jnas/oneshot/chosen_words/$i/query.F.list ; done;
+for i in `seq 3 1 12`; do ./create_decode_command.py -l ../oneshot/chosen_words/$i/query.F.list -o ../oneshot/chosen_words/$i/decode.F.sh -q /usr/users/chiaying/oneshot/jnas/oneshot/chosen_words/$i/query.M.list ; done;
 
+12. create query.list
+---------------------
+for i in `seq 3 1 12`; do sed 's/\.raw/\.joint\.raw/' /usr/users/chiaying/oneshot/jnas/oneshot/chosen_words/$i/query.M.list | sed 's/\.out/\.joint\.out/' > /usr/users/chiaying/oneshot/jnas/oneshot/chosen_words/$i/query.M.joint.list; done;
+for i in `seq 3 1 12`; do sed 's/\.raw/\.joint\.raw/' /usr/users/chiaying/oneshot/jnas/oneshot/chosen_words/$i/query.F.list | sed 's/\.out/\.joint\.out/' > /usr/users/chiaying/oneshot/jnas/oneshot/chosen_words/$i/query.F.joint.list; done;
 
