@@ -1,4 +1,5 @@
 1. use wavesurfer to get the time stamps of the key word
+
 2. use the following command to create a file of the following formate:
 
 4
@@ -8,3 +9,47 @@ t2
 wavefile length
 
 for f in `find *.orig.wav`; do echo 4 >> `basename $f orig.wav`txt; echo 0 >> `basename $f orig.wav`txt; cat `basename $f orig.wav`sec >> `basename $f orig.wav`txt; ls -Ll $f | awk '{print $5/2/16000}' - >> `basename $f orig.wav`txt ; done;
+
+3. Convert by using
+-------------------
+for i in `seq 3 1 12`; do for f in `seq 1 1 20`; do /usr/users/chiaying/find_seg/from_ascii_to_frames.py -a $i/$i\_$f\_M.txt -l /usr/users/chiaying/oneshot/jnas/oneshot/chosen_words/$i/$i\_$f\_M.lab -s 16000; /usr/users/chiaying/find_seg/from_ascii_to_frames.py -a $i/$i\_$f\_F.txt -l /usr/users/chiaying/oneshot/jnas/oneshot/chosen_words/$i/$i\_$f\_F.lab -s 16000; done; done;
+
+4. get .alg files
+-----------------
+for i in `seq 3 1 12`; do cd $i; for f in `find *.orig.wav`; do echo $f; ls -lrt $f | awk '{print $NF}' | sed 's/\// /g' | awk '{print $NF}' | sed 's/\.wav//' | while read line; do /usr/users/chiaying/phone_learning/gmm_training/bin/my_assign_labels -f `grep $line /usr/users/chiaying/JNAS/scripts/especs/pca_mfcc.list` -l `basename $f .orig.wav`.lab -o `basename $f .orig.wav`.alg  ; done; done; cd ../ ; done; 
+
+5. get .nonseg.phn files
+------------------------
+for i in `seq 3 1 12`; do for f in `seq 1 1 20`; do /usr/users/chiaying/find_seg/add_total_frame_num.py -i $i/$i\_$f\_M.alg -o $i/$i\_$f\_M.nonseg.phn; /usr/users/chiaying/find_seg/add_total_frame_num.py -i $i/$i\_$f\_F.alg -o $i/$i\_$f\_F.nonseg.phn; done; done;
+
+6. get .seg files
+-----------------
+for i in `seq 3 1 12`; do cd $i; for f in `find *.orig.wav`; do echo $f; ls -lrt $f | awk '{print $NF}' | sed 's/\// /g' | awk '{print $NF}' | sed 's/\.wav//' | while read line; do cp `grep $line /usr/users/chiaying/JNAS/scripts/especs/segs.list` `basename $f .orig.wav`.seg; done; done; cd ../; done;  
+
+7. get .phn files
+-----------------
+for i in `seq 3 1 12`; do for f in `seq 1 1 20`; do /usr/users/chiaying/oneshot/jnas/scripts/create_formatted_phn.py -s $i/$i\_$f\_M.seg -i $i/$i\_$f\_M.nonseg.phn -o $i/$i\_$f\_M.phn; /usr/users/chiaying/oneshot/jnas/scripts/create_formatted_phn.py -s $i/$i\_$f\_F.seg -i $i/$i\_$f\_F.nonseg.phn -o $i/$i\_$f\_F.phn; done; done;
+
+
+8. get .norm.phn files
+----------------------
+for i in `seq 3 1 12`; do for f in `seq 1 1 20`; do /usr/users/chiaying/oneshot/jnas/scripts/create_index_files.py -i /usr/users/chiaying/oneshot/jnas/oneshot/chosen_words/$i/$i\_$f\_M.phn -o /usr/users/chiaying/oneshot/jnas/oneshot/chosen_words/$i/$i\_$f\_M.norm.phn ; /usr/users/chiaying/oneshot/jnas/scripts/create_index_files.py -i /usr/users/chiaying/oneshot/jnas/oneshot/chosen_words/$i/$i\_$f\_F.phn -o /usr/users/chiaying/oneshot/jnas/oneshot/chosen_words/$i/$i\_$f\_F.norm.phn; done; done;
+
+9. get .mfc files
+-----------------
+for i in `seq 3 1 12`; do cd $i; for f in `find *.orig.wav`; do echo $f; ls -lrt $f | awk '{print $NF}' | sed 's/\// /g' | awk '{print $NF}' | sed 's/\.wav//' | while read line; do /usr/users/chiaying/pronunciation_learning/exps/scripts/gather_silence_mfcc -index `basename $f .orig.wav`.phn -mfcc `grep $line /usr/users/chiaying/JNAS/scripts/especs/pca_mfcc.list` -out `basename $f .orig.wav`.mfc ; done; done; cd ../ ; done;  
+
+10. create .raw files
+---------------------
+for i in `seq 3 1 12`; do for f in `seq 1 1 20`; do /usr/users/chiaying/phone_learning/gmm_training/bin/write_mfcc -in /usr/users/chiaying/oneshot/jnas/oneshot/chosen_words/$i/$i\_$f\_M.mfc -out /usr/users/chiaying/oneshot/jnas/oneshot/chosen_words/$i/$i\_$f\_M.raw; /usr/users/chiaying/phone_learning/gmm_training/bin/write_mfcc -in /usr/users/chiaying/oneshot/jnas/oneshot/chosen_words/$i/$i\_$f\_F.mfc -out /usr/users/chiaying/oneshot/jnas/oneshot/chosen_words/$i/$i\_$f\_F.raw; done; done;  
+
+11. create decoding files
+-------------------------
+for i in `seq 3 1 12`; do ./create_decode_command.py -l ../oneshot/chosen_words/$i/query.M.list -o ../oneshot/chosen_words/$i/decode.M.sh -q /usr/users/chiaying/oneshot/jnas/oneshot/chosen_words/$i/query.F.list ; done;
+for i in `seq 3 1 12`; do ./create_decode_command.py -l ../oneshot/chosen_words/$i/query.F.list -o ../oneshot/chosen_words/$i/decode.F.sh -q /usr/users/chiaying/oneshot/jnas/oneshot/chosen_words/$i/query.M.list ; done;
+
+12. create query.list
+---------------------
+for i in `seq 3 1 12`; do sed 's/\.raw/\.joint\.raw/' /usr/users/chiaying/oneshot/jnas/oneshot/chosen_words/$i/query.M.list | sed 's/\.out/\.joint\.out/' > /usr/users/chiaying/oneshot/jnas/oneshot/chosen_words/$i/query.M.joint.list; done;
+for i in `seq 3 1 12`; do sed 's/\.raw/\.joint\.raw/' /usr/users/chiaying/oneshot/jnas/oneshot/chosen_words/$i/query.F.list | sed 's/\.out/\.joint\.out/' > /usr/users/chiaying/oneshot/jnas/oneshot/chosen_words/$i/query.F.joint.list; done;
+
