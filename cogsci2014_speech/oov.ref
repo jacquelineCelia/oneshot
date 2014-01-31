@@ -1,0 +1,16 @@
+carolina:
+LEARNING SUB-WORD UNITS AND EXPLOITING CONTEXTUAL INFORMATION FOR OPEN VOCABULARY SPEECH RECOGNITION, phd thesis, 2011
+
+rastrow:
+A. Rastrow, A. Sethy, and B. Ramabhadran. A new method for OOV detection using hybrid
+word/fragment system. ICASSP, 2009
+
+hazen:
+T. J. Hazen and I. Bazzi. A comparison and combination of methods for OOV word detection and word confidence scoring. In Proceedings of the International Conference on Acoustics, 2001.
+
+asru:
+H. Lin, J. Bilmes, D. Vergyri, and K. Kirchhoff. OOV detection by joint word/phone lattice
+alignment. In ASRU, pages 478–483, Dec. 2007
+
+bazzi:
+Modeling Out-Of-Vocabulary Words For Robust Speech Recognition, phd thesis, 2000
