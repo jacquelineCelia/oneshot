@@ -1,0 +1,57 @@
+This is BibTeX, Version 0.99d (TeX Live 2013)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: cogsci_template_v3.aux
+The style file: apacite.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Database file #1: library.bib
+Warning--I didn't find a database entry for "Halle1962"
+apacite.bst [2012/02/25 v6.01 APA bibliography style]
+You've used 25 entries,
+            6735 wiz_defined-function locations,
+            1438 strings with 61134 characters,
+and the built_in function-call counts, 45160 in all, are:
+= -- 5730
+> -- 374
+< -- 1960
++ -- 2030
+- -- 50
+* -- 2824
+:= -- 7880
+add.period$ -- 108
+call.type$ -- 25
+change.case$ -- 441
+chr.to.int$ -- 0
+cite$ -- 50
+duplicate$ -- 1187
+empty$ -- 1877
+format.name$ -- 622
+if$ -- 8794
+int.to.chr$ -- 0
+int.to.str$ -- 50
+missing$ -- 0
+newline$ -- 638
+num.names$ -- 200
+pop$ -- 808
+preamble$ -- 1
+purify$ -- 112
+quote$ -- 0
+skip$ -- 3091
+stack$ -- 0
+substring$ -- 2259
+swap$ -- 720
+text.length$ -- 62
+text.prefix$ -- 0
+top$ -- 1
+type$ -- 2256
+warning$ -- 0
+while$ -- 219
+width$ -- 0
+write$ -- 791
+(There was 1 warning)

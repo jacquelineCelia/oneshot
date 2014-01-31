@@ -1,0 +1,686 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Ahn%
+, Brewer%
+\BCBL {}\ \BBA {} Mooney%
+}{%
+Ahn%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {1992}}%
+}]{%
+Ahn1992}
+\APACinsertmetastar {%
+Ahn1992}%
+\begin{APACrefauthors}%
+Ahn, W\BHBI k.%
+, Brewer, W\BPBI F.%
+\BCBL {}\ \BBA {} Mooney, R\BPBI J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1992}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Schema Acquisition From a Single Example}} {{Schema
+  Acquisition From a Single Example}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Experimental Psychology: Learning, Memory,
+  and Cognition}{18}{2}{391--412}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Bart%
+\ \BBA {} Ullman%
+}{%
+Bart%
+\ \BBA {} Ullman%
+}{%
+{\protect \APACyear {2005}}%
+}]{%
+Bart2005}
+\APACinsertmetastar {%
+Bart2005}%
+\begin{APACrefauthors}%
+Bart, E.%
+\BCBT {}\ \BBA {} Ullman, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2005}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Cross-generalization: Learning novel classes from a
+  single example by feature replacement}} {{Cross-generalization: Learning
+  novel classes from a single example by feature replacement}}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Computer Vision and Pattern Recognition (CVPR).}
+  {Computer vision and pattern recognition (cvpr).}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Biederman%
+}{%
+Biederman%
+}{%
+{\protect \APACyear {1987}}%
+}]{%
+Biederman1987}
+\APACinsertmetastar {%
+Biederman1987}%
+\begin{APACrefauthors}%
+Biederman, I.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1987}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Recognition-by-components: a theory of human image
+  understanding.}} {{Recognition-by-components: a theory of human image
+  understanding.}}{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Psychological Review}{94}{2}{115--47}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Carey%
+\ \BBA {} Bartlett%
+}{%
+Carey%
+\ \BBA {} Bartlett%
+}{%
+{\protect \APACyear {1978}}%
+}]{%
+CareyBartlett1978}
+\APACinsertmetastar {%
+CareyBartlett1978}%
+\begin{APACrefauthors}%
+Carey, S.%
+\BCBT {}\ \BBA {} Bartlett, E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1978}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Acquiring a single new word}} {{Acquiring a single new
+  word}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Papers and Reports on Child Language
+  Development}{15}{}{17--29}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Colunga%
+\ \BBA {} Smith%
+}{%
+Colunga%
+\ \BBA {} Smith%
+}{%
+{\protect \APACyear {2005}}%
+}]{%
+Colunga2005}
+\APACinsertmetastar {%
+Colunga2005}%
+\begin{APACrefauthors}%
+Colunga, E.%
+\BCBT {}\ \BBA {} Smith, L\BPBI B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2005}{{\APACmonth{04}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{From the lexicon to expectations about kinds: a role
+  for associative learning.}} {{From the lexicon to expectations about kinds: a
+  role for associative learning.}}{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Psychological review}{112}{2}{347--82}.
+\newblock
+\begin{APACrefDOI} \doi{10.1037/0033-295X.112.2.347} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Fei-Fei%
+, Fergus%
+\BCBL {}\ \BBA {} Perona%
+}{%
+Fei-Fei%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2006}}%
+}]{%
+FeiFeiFergus2006}
+\APACinsertmetastar {%
+FeiFeiFergus2006}%
+\begin{APACrefauthors}%
+Fei-Fei, L.%
+, Fergus, R.%
+\BCBL {}\ \BBA {} Perona, P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2006}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{One-shot learning of object categories}} {{One-shot
+  learning of object categories}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE Transactions on Pattern Analysis and Machine
+  Intelligence}{28}{4}{594--611}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Feldman%
+}{%
+Feldman%
+}{%
+{\protect \APACyear {1997}}%
+}]{%
+Feldman1997}
+\APACinsertmetastar {%
+Feldman1997}%
+\begin{APACrefauthors}%
+Feldman, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1997}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{The structure of perceptual categories}} {{The
+  structure of perceptual categories}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Mathematical Psychology}{41}{}{145--170}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Gelman%
+, Carlin%
+, Stern%
+\BCBL {}\ \BBA {} Rubin%
+}{%
+Gelman%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2004}}%
+}]{%
+Gelman2004}
+\APACinsertmetastar {%
+Gelman2004}%
+\begin{APACrefauthors}%
+Gelman, A.%
+, Carlin, J\BPBI B.%
+, Stern, H\BPBI S.%
+\BCBL {}\ \BBA {} Rubin, D\BPBI B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2004}.
+\newblock
+\APACrefbtitle {{Bayesian Data Analysis}} {{Bayesian Data Analysis}}\
+  (\PrintOrdinal{2}\ \BEd).
+\newblock
+\APACaddressPublisher{}{Chapman and Hall/CRC}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Geman%
+, Bienenstock%
+\BCBL {}\ \BBA {} Doursat%
+}{%
+Geman%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {1992}}%
+}]{%
+Geman1992}
+\APACinsertmetastar {%
+Geman1992}%
+\begin{APACrefauthors}%
+Geman, S.%
+, Bienenstock, E.%
+\BCBL {}\ \BBA {} Doursat, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1992}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Neural Networks and the Bias/Variance Dilemma}}
+  {{Neural Networks and the Bias/Variance Dilemma}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Neural Computation}{4}{}{1--58}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Hinton%
+\ \BBA {} Nair%
+}{%
+Hinton%
+\ \BBA {} Nair%
+}{%
+{\protect \APACyear {2006}}%
+}]{%
+HintonNair2006}
+\APACinsertmetastar {%
+HintonNair2006}%
+\begin{APACrefauthors}%
+Hinton, G\BPBI E.%
+\BCBT {}\ \BBA {} Nair, V.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2006}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Inferring motor programs from images of handwritten
+  digits.}} {{Inferring motor programs from images of handwritten
+  digits.}}{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {{Advances in Neural Information Processing Systems 19}.}
+  {{Advances in Neural Information Processing Systems 19}.}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Jern%
+\ \BBA {} Kemp%
+}{%
+Jern%
+\ \BBA {} Kemp%
+}{%
+{\protect \APACyear {2013}}%
+}]{%
+Jern2013}
+\APACinsertmetastar {%
+Jern2013}%
+\begin{APACrefauthors}%
+Jern, A.%
+\BCBT {}\ \BBA {} Kemp, C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{{\APACmonth{03}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{A probabilistic account of exemplar and category
+  generation.}} {{A probabilistic account of exemplar and category
+  generation.}}{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Cognitive psychology}{66}{1}{85--125}.
+\newblock
+\begin{APACrefDOI} \doi{10.1016/j.cogpsych.2012.09.003} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Kemp%
+, Perfors%
+\BCBL {}\ \BBA {} Tenenbaum%
+}{%
+Kemp%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2007}}%
+}]{%
+KempPerfors2007}
+\APACinsertmetastar {%
+KempPerfors2007}%
+\begin{APACrefauthors}%
+Kemp, C.%
+, Perfors, A.%
+\BCBL {}\ \BBA {} Tenenbaum, J\BPBI B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2007}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Learning overhypotheses with hierarchical {B}ayesian
+  models}} {{Learning overhypotheses with hierarchical {B}ayesian
+  models}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Developmental Science}{10}{3}{307--321}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Lake%
+, Salakhutdinov%
+\BCBL {}\ \BBA {} Tenenbaum%
+}{%
+Lake%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2012}}%
+}]{%
+Lake2012}
+\APACinsertmetastar {%
+Lake2012}%
+\begin{APACrefauthors}%
+Lake, B\BPBI M.%
+, Salakhutdinov, R.%
+\BCBL {}\ \BBA {} Tenenbaum, J\BPBI B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Concept learning as motor program induction: A
+  large-scale empirical study}} {{Concept learning as motor program induction:
+  A large-scale empirical study}}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {{Proceedings of the 34th Annual Conference of the
+  Cognitive Science Society}.} {{Proceedings of the 34th Annual Conference of
+  the Cognitive Science Society}.}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Lake%
+, Salakhutdinov%
+\BCBL {}\ \BBA {} Tenenbaum%
+}{%
+Lake%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2013}}%
+}]{%
+Lake2013}
+\APACinsertmetastar {%
+Lake2013}%
+\begin{APACrefauthors}%
+Lake, B\BPBI M.%
+, Salakhutdinov, R.%
+\BCBL {}\ \BBA {} Tenenbaum, J\BPBI B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{One-shot learning by inverting a compositional causal
+  process}} {{One-shot learning by inverting a compositional causal
+  process}}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Advances in Neural Information Processing Systems 26.}
+  {Advances in neural information processing systems 26.}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Liberman%
+, Cooper%
+, Shankweiler%
+\BCBL {}\ \BBA {} Studdert-Kennedy%
+}{%
+Liberman%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {1967}}%
+}]{%
+Liberman1967}
+\APACinsertmetastar {%
+Liberman1967}%
+\begin{APACrefauthors}%
+Liberman, A\BPBI M.%
+, Cooper, F\BPBI S.%
+, Shankweiler, D\BPBI P.%
+\BCBL {}\ \BBA {} Studdert-Kennedy, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1967}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Perception of the speech code}} {{Perception of the
+  speech code}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Psychological Review}{74}{6}{431--461}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Markman%
+}{%
+Markman%
+}{%
+{\protect \APACyear {1989}}%
+}]{%
+Markman1989}
+\APACinsertmetastar {%
+Markman1989}%
+\begin{APACrefauthors}%
+Markman, E\BPBI M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1989}.
+\newblock
+\APACrefbtitle {{Categorization and Naming in Children}} {{Categorization and
+  Naming in Children}}.
+\newblock
+\APACaddressPublisher{Cambridge, MA}{MIT Press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Murphy%
+}{%
+Murphy%
+}{%
+{\protect \APACyear {1988}}%
+}]{%
+Murphy1988}
+\APACinsertmetastar {%
+Murphy1988}%
+\begin{APACrefauthors}%
+Murphy, G\BPBI L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1988}{{\APACmonth{12}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Comprehending complex concepts}} {{Comprehending
+  complex concepts}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Cognitive Science}{12}{4}{529--562}.
+\newblock
+\begin{APACrefDOI} \doi{10.1016/0364-0213(88)90012-2} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Murphy%
+\ \BBA {} Medin%
+}{%
+Murphy%
+\ \BBA {} Medin%
+}{%
+{\protect \APACyear {1985}}%
+}]{%
+Murphy1985}
+\APACinsertmetastar {%
+Murphy1985}%
+\begin{APACrefauthors}%
+Murphy, G\BPBI L.%
+\BCBT {}\ \BBA {} Medin, D\BPBI L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1985}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{The role of theories in conceptual coherence.}} {{The
+  role of theories in conceptual coherence.}}{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Psychological Review}{92}{3}{289--316}.
+\newblock
+\begin{APACrefDOI} \doi{10.1037/0033-295X.92.3.289} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Rehder%
+}{%
+Rehder%
+}{%
+{\protect \APACyear {2003}}%
+}]{%
+Rehder2003}
+\APACinsertmetastar {%
+Rehder2003}%
+\begin{APACrefauthors}%
+Rehder, B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2003}{{\APACmonth{11}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{A causal-model theory of conceptual representation and
+  categorization.}} {{A causal-model theory of conceptual representation and
+  categorization.}}{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of experimental psychology. Learning, memory,
+  and cognition}{29}{6}{1141--59}.
+\newblock
+\begin{APACrefDOI} \doi{10.1037/0278-7393.29.6.1141} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Sakoe%
+\ \BBA {} Chiba%
+}{%
+Sakoe%
+\ \BBA {} Chiba%
+}{%
+{\protect \APACyear {1978}}%
+}]{%
+Sakoe1978}
+\APACinsertmetastar {%
+Sakoe1978}%
+\begin{APACrefauthors}%
+Sakoe, H.%
+\BCBT {}\ \BBA {} Chiba, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1978}{{\APACmonth{02}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Dynamic programming algorithm optimization for spoken
+  word recognition}} {{Dynamic programming algorithm optimization for spoken
+  word recognition}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE Transactions on Acoustics, Speech, and Signal
+  Processing}{26}{1}{43--49}.
+\newblock
+\begin{APACrefDOI} \doi{10.1109/TASSP.1978.1163055} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Shepard%
+}{%
+Shepard%
+}{%
+{\protect \APACyear {1987}}%
+}]{%
+Shepard1987}
+\APACinsertmetastar {%
+Shepard1987}%
+\begin{APACrefauthors}%
+Shepard, R\BPBI N.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1987}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Toward a Universal Law of Generalization for
+  Psychological Science}} {{Toward a Universal Law of Generalization for
+  Psychological Science}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Science}{237}{4820}{1317--1323}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Tenenbaum%
+\ \BBA {} Griffiths%
+}{%
+Tenenbaum%
+\ \BBA {} Griffiths%
+}{%
+{\protect \APACyear {2001}}%
+}]{%
+Tenenbaum2001}
+\APACinsertmetastar {%
+Tenenbaum2001}%
+\begin{APACrefauthors}%
+Tenenbaum, J\BPBI B.%
+\BCBT {}\ \BBA {} Griffiths, T\BPBI L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2001}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Generalization, similarity, and Bayesian inference.}}
+  {{Generalization, similarity, and Bayesian inference.}}{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Behavioral and Brain Sciences}{24}{4}{629--40}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Williams%
+\ \BBA {} Lombrozo%
+}{%
+Williams%
+\ \BBA {} Lombrozo%
+}{%
+{\protect \APACyear {2010}}%
+}]{%
+Williams2010}
+\APACinsertmetastar {%
+Williams2010}%
+\begin{APACrefauthors}%
+Williams, J\BPBI J.%
+\BCBT {}\ \BBA {} Lombrozo, T.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2010}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{The role of explanation in discovery and
+  generalization: evidence from category learning.}} {{The role of explanation
+  in discovery and generalization: evidence from category learning.}}{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Cognitive science}{34}{5}{776--806}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Xu%
+\ \BBA {} Tenenbaum%
+}{%
+Xu%
+\ \BBA {} Tenenbaum%
+}{%
+{\protect \APACyear {2007}}%
+}]{%
+Xu2007}
+\APACinsertmetastar {%
+Xu2007}%
+\begin{APACrefauthors}%
+Xu, F.%
+\BCBT {}\ \BBA {} Tenenbaum, J\BPBI B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2007}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Word Learning as Bayesian Inference}} {{Word Learning
+  as Bayesian Inference}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Psychological Review}{114}{2}{245--272}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Yuille%
+\ \BBA {} Kersten%
+}{%
+Yuille%
+\ \BBA {} Kersten%
+}{%
+{\protect \APACyear {2006}}%
+}]{%
+Yuille2006}
+\APACinsertmetastar {%
+Yuille2006}%
+\begin{APACrefauthors}%
+Yuille, A.%
+\BCBT {}\ \BBA {} Kersten, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2006}{{\APACmonth{07}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Vision as Bayesian inference: analysis by synthesis?}}
+  {{Vision as Bayesian inference: analysis by synthesis?}}{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Trends in cognitive sciences}{10}{7}{301--8}.
+\newblock
+\begin{APACrefURL} \url{http://www.ncbi.nlm.nih.gov/pubmed/16784882}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1016/j.tics.2006.05.002} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}

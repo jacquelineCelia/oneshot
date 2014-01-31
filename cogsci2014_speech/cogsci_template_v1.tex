@@ -1,0 +1,85 @@
+% 
+% Annual Cognitive Science Conference
+% Sample LaTeX Paper -- Proceedings Format
+% 
+% Original : Ashwin Ram (ashwin@cc.gatech.edu)       04/01/1994
+% Modified : Johanna Moore (jmoore@cs.pitt.edu)      03/17/1995
+% Modified : David Noelle (noelle@ucsd.edu)          03/15/1996
+% Modified : Pat Langley (langley@cs.stanford.edu)   01/26/1997
+% Latex2e corrections by Ramin Charles Nakisa        01/28/1997 
+% Modified : Tina Eliassi-Rad (eliassi@cs.wisc.edu)  01/31/1998
+% Modified : Trisha Yannuzzi (trisha@ircs.upenn.edu) 12/28/1999 (in process)
+% Modified : Mary Ellen Foster (M.E.Foster@ed.ac.uk) 12/11/2000
+% Modified : Ken Forbus                              01/23/2004
+% Modified : Eli M. Silk (esilk@pitt.edu)            05/24/2005
+% Modified: Niels Taatgen (taatgen@cmu.edu) 10/24/2006
+
+%% Change ``a4paper'' in the following line to ``letterpaper'' if you are
+%% producing a letter-format document.
+
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{cogsci}
+\usepackage{pslatex}
+\usepackage{apacite}
+
+\title{One-shot learning of simple auditory concepts}
+ 
+\author{Authors}
+ 
+%\author{{\large \bf Morton Ann Gernsbacher (MAG@Macc.Wisc.Edu)} \\
+%  Department of Psychology, 1202 W. Johnson Street \\
+%  Madison, WI 53706 USA
+%  \AND {\large \bf Sharon J. Derry (SDJ@Macc.Wisc.Edu)} \\
+%  Department of Educational Psychology, 1025 W. Johnson Street \\
+%  Madison, WI 53706 USA}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+\textbf{Keywords:}
+speech recognition; category learning; one-shot learning; exemplar generation
+\end{abstract}
+
+\section{Introduction}
+In psychology, machine learning, and AI, category learning is typically studied in a ``big data'' paradigm, where the learner is evaluated after seeing hundreds of thousands of examples. But for many types of natural categories, people only need to see one or a handful of examples to generalize successfully, an ability called one-shot learning \cite<e.g.,>{CareyBartlett1978,Markman1989,Ahn1992,Xu2007}. Previous computational work has studied how people \cite{Shepard1987,Tenenbaum2001,Feldman1997,Colunga2005} and machines \cite{MillerMatsakis2000,Bart2005,FeiFeiFergus2006} might generalize from very sparse data, but these models have dealt with only the most classic and simplest types of category representations -- prototypes or sets of exemplars in feature space. While these representations can be used to build proficient classifiers, people can generalize in many ways beyond classification, and it is unclear how these models could apply to other natural forms of category-based generalization like exemplar generation, feature prediction, causal inference, and conceptual combination.
+
+Recent work has shown how a Hierarchical Bayesian model can successfully learn new handwritten characters from one example, where the raw stimuli are decomposed into primitive elements by modeling their underlying causal process. In this paper, we apply this approach to one-shot learning of new spoken words in a foreign language. By transferring learned primitive structure from a corpus of English speech, the model can classify new Japanese words at a level of accuracy similar to English-speaking humans. We also compare humans and the model on another natural form of generalization -- an exemplar generation task.
+
+\section{Model}
+
+\section{Experiment 1: Classification}
+
+\subsection{Humans}
+In order to evaluate 
+
+Participants in the USA were recruited on Amazon's Mechanical Turk. 
+
+ to judge their ability to classify new Japanese words. Participants were shown a sequence of displays, each with a button labeled ``target word'' at the top. Below it there was a grid of buttons numbered ``1'' through ``20,'' each with an associated radio button for response selection (and a general ``submit'' button to complete the trial). Participants were told that each button played a sound clip of a Japanese word, and their job was to pick the sound clip that produces the same word as the target word. Sound clips could be played more than once, and responses were not accepted unless both the target word and the chosen clip were played at least once. 
+
+
+\subsection{Models}
+
+\subsection{Results}
+
+\section{Experiment 2: Generation}
+
+\subsection{Humans}
+
+\subsection{Models}
+
+\subsection{Results}
+
+\section{Discussion}
+
+\bibliographystyle{apacite}
+\setlength{\bibleftmargin}{.125in}
+\setlength{\bibindent}{-\bibleftmargin}
+
+\bibliography{library}
+\end{document}
+
+%Categorization is a central problem in several fields, including psychology, machine learning, and AI. Traditional computational approaches to categorization have used sets of exemplars, features, or rules to help discriminate members from non-members, but learning these classic forms of representation typically requires tens, hundreds, or thousands of examples to reach good performance. On the other hand, people can often learn a new category from just one or few examples, an ability often called one-shot learning \cite<e.g.,>{CareyBartlett1978,Markman1989,Ahn1992,Xu2007}. Previous computational accounts have studied how people \cite{Shepard1987,Tenenbaum2001,Feldman1997,Colunga2005}, and machines \cite{MillerMatsakis2000,Bart2005,FeiFeiFergus2006} might generalize from very sparse data, but these models have dealt with only the most classic and simplest types of category representations -- prototypes or sets of exemplars in feature space.
+
+%Categorization is a central problem for both human and machine learning. Traditional computational approaches, as developed in psychology, machine learning, and AI, represent categories as a set of exemplars, features, or rules that help discriminate members from non-members, and learning these classifiers typically require tens, hundreds, or thousands of examples to reach good performance. In contrast, people can often learn a new category from just one or few examples, an ability often called one-shot learning. Furthermore, while people can generalize in many ways beyond classification, it is unclear how these models could apply to other natural forms of category-based generalization. Recent work has shown how a Hierarchical Bayesian model can successfully learn new handwritten characters from one example, where the raw stimuli are decomposed into primitive elements by modeling their underlying causal process. In this paper, we apply this approach to one-shot learning of new spoken words in a foreign language. By transferring learned primitive structure from a corpus of English speech, the model can classify new Japanese words at a level of accuracy similar to English-speaking humans. We also compare humans and the model on another natural form of generalization -- an exemplar generation task.

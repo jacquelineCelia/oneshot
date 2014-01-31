@@ -1,0 +1,267 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Ahn%
+, Brewer%
+\BCBL {}\ \BBA {} Mooney%
+}{%
+Ahn%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {1992}}%
+}]{%
+Ahn1992}
+\APACinsertmetastar {%
+Ahn1992}%
+\begin{APACrefauthors}%
+Ahn, W\BHBI k.%
+, Brewer, W\BPBI F.%
+\BCBL {}\ \BBA {} Mooney, R\BPBI J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1992}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Schema Acquisition From a Single Example}} {{Schema
+  Acquisition From a Single Example}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Experimental Psychology: Learning, Memory,
+  and Cognition}{18}{2}{391--412}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Carey%
+\ \BBA {} Bartlett%
+}{%
+Carey%
+\ \BBA {} Bartlett%
+}{%
+{\protect \APACyear {1978}}%
+}]{%
+CareyBartlett1978}
+\APACinsertmetastar {%
+CareyBartlett1978}%
+\begin{APACrefauthors}%
+Carey, S.%
+\BCBT {}\ \BBA {} Bartlett, E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1978}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Acquiring a single new word}} {{Acquiring a single new
+  word}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Papers and Reports on Child Language
+  Development}{15}{}{17--29}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Colunga%
+\ \BBA {} Smith%
+}{%
+Colunga%
+\ \BBA {} Smith%
+}{%
+{\protect \APACyear {2005}}%
+}]{%
+Colunga2005}
+\APACinsertmetastar {%
+Colunga2005}%
+\begin{APACrefauthors}%
+Colunga, E.%
+\BCBT {}\ \BBA {} Smith, L\BPBI B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2005}{{\APACmonth{04}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{From the lexicon to expectations about kinds: a role
+  for associative learning.}} {{From the lexicon to expectations about kinds: a
+  role for associative learning.}}{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Psychological review}{112}{2}{347--82}.
+\newblock
+\begin{APACrefDOI} \doi{10.1037/0033-295X.112.2.347} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Fei-Fei%
+, Fergus%
+\BCBL {}\ \BBA {} Perona%
+}{%
+Fei-Fei%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2006}}%
+}]{%
+FeiFeiFergus2006}
+\APACinsertmetastar {%
+FeiFeiFergus2006}%
+\begin{APACrefauthors}%
+Fei-Fei, L.%
+, Fergus, R.%
+\BCBL {}\ \BBA {} Perona, P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2006}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{One-shot learning of object categories}} {{One-shot
+  learning of object categories}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE Transactions on Pattern Analysis and Machine
+  Intelligence}{28}{4}{594--611}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Feldman%
+}{%
+Feldman%
+}{%
+{\protect \APACyear {1997}}%
+}]{%
+Feldman1997}
+\APACinsertmetastar {%
+Feldman1997}%
+\begin{APACrefauthors}%
+Feldman, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1997}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{The structure of perceptual categories}} {{The
+  structure of perceptual categories}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Mathematical Psychology}{41}{}{145--170}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Markman%
+}{%
+Markman%
+}{%
+{\protect \APACyear {1989}}%
+}]{%
+Markman1989}
+\APACinsertmetastar {%
+Markman1989}%
+\begin{APACrefauthors}%
+Markman, E\BPBI M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1989}.
+\newblock
+\APACrefbtitle {{Categorization and Naming in Children}} {{Categorization and
+  Naming in Children}}.
+\newblock
+\APACaddressPublisher{Cambridge, MA}{MIT Press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Miller%
+, Matsakis%
+\BCBL {}\ \BBA {} Viola%
+}{%
+Miller%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2000}}%
+}]{%
+MillerMatsakis2000}
+\APACinsertmetastar {%
+MillerMatsakis2000}%
+\begin{APACrefauthors}%
+Miller, E\BPBI G.%
+, Matsakis, N\BPBI E.%
+\BCBL {}\ \BBA {} Viola, P\BPBI A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2000}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Learning from one example through shared densities on
+  transformations}} {{Learning from one example through shared densities on
+  transformations}}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {{Proceedings of the IEEE Conference on Computer Vision
+  and Pattern Recognition}.} {{Proceedings of the IEEE Conference on Computer
+  Vision and Pattern Recognition}.}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Shepard%
+}{%
+Shepard%
+}{%
+{\protect \APACyear {1987}}%
+}]{%
+Shepard1987}
+\APACinsertmetastar {%
+Shepard1987}%
+\begin{APACrefauthors}%
+Shepard, R\BPBI N.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1987}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Toward a Universal Law of Generalization for
+  Psychological Science}} {{Toward a Universal Law of Generalization for
+  Psychological Science}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Science}{237}{4820}{1317--1323}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Tenenbaum%
+\ \BBA {} Griffiths%
+}{%
+Tenenbaum%
+\ \BBA {} Griffiths%
+}{%
+{\protect \APACyear {2001}}%
+}]{%
+Tenenbaum2001}
+\APACinsertmetastar {%
+Tenenbaum2001}%
+\begin{APACrefauthors}%
+Tenenbaum, J\BPBI B.%
+\BCBT {}\ \BBA {} Griffiths, T\BPBI L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2001}{{\APACmonth{08}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Generalization, similarity, and Bayesian inference.}}
+  {{Generalization, similarity, and Bayesian inference.}}{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Behavioral and Brain Sciences}{24}{4}{629--40}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Xu%
+\ \BBA {} Tenenbaum%
+}{%
+Xu%
+\ \BBA {} Tenenbaum%
+}{%
+{\protect \APACyear {2007}}%
+}]{%
+Xu2007}
+\APACinsertmetastar {%
+Xu2007}%
+\begin{APACrefauthors}%
+Xu, F.%
+\BCBT {}\ \BBA {} Tenenbaum, J\BPBI B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2007}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Word Learning as Bayesian Inference}} {{Word Learning
+  as Bayesian Inference}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Psychological Review}{114}{2}{245--272}.
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}
